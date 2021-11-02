@@ -1,0 +1,14 @@
+
+   body {
+   background-image: url("town.png");
+}
+     
+div.grid-container{
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+
+
+

@@ -1,0 +1,5 @@
+XML Submission file:
+
+>config.xml should have been --> config.php
+
+>Last minute decided to keep most of the styling code in the index.php files as it was just easier to execute. (?)

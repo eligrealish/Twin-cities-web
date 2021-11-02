@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+    font-size: 0.95em;
+    color: #929292;
+	padding: 100px 100px 100px 100px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+	
+
+.left {
+  left: 0;
+	background-image: url("https://omghcontent.affino.com/AcuCustom/Sitename/DAM/107/GREATER-MANCHESTER-MIN__thumb.jpg");
+}
+
+.right {
+  right: 0;
+  background-image :url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Russia/st-petersburg/st-petersburg-lead-guide.jpg?imwidth=1400");
+}
+
+.centered {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+img {
+  width: 150px;
+  
+}

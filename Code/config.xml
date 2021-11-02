@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <citylocation>
+
+        <city>
+			<name> manchester</name>
+            <latitude> 53.4785 </latitude>
+            <longitude> -2.2430 </longitude>
+            <zoom>13 </zoom>
+        </city>
+
+        <city>
+			<name>stPetersburg </name>
+            <latitude> 59.9343 </latitude>
+            <longitude> 30.3351 </longitude>
+            <zoom> 10 </zoom>
+        </city>
+
+
+    </citylocation>
+
+    <database>
+        <host> mysql5 </host>
+        <username> fet18035194 </username>
+        <password>password1234 </password>
+        <dbname>fet18035194 </dbname>
+    </database>
+
+    <apidata>
+        <api category="googleMaps">
+            <url> https://maps.googleapis.com/maps/api/js</url>
+            <key> AIzaSyD0GK-815VQUBoQyJyTBxAkdjeai9Qv5DA </key>
+            <callback> initMap </callback> ` </api>
+
+        <api category="openWeathermap">
+            <url>http://api.openweathermap.org/data/2.5/weather</url>
+            <key>2326fdd85eb591f2c7ff73d2a0b9404e </key>
+            <units>metric</units>
+
+        </api>
+
+    </apidata>
+
+</configdata>
